@@ -4,7 +4,9 @@
 
 </p>
 <h1>Creating a Virtual Machine (VM) in Microsoft Azure</h1>
+
 Welcome!!! In this project I will show a tutorial on how to make a Virtual Machine (vm) in Mircrosoft Azure <br />
+*Included Network Watcher and Topology* <br>
 
 
 <h2>Requirements</h2>
@@ -27,11 +29,11 @@ Welcome!!! In this project I will show a tutorial on how to make a Virtual Machi
 
 <p><br>
 After you log in
-<img src="https://i.imgur.com/MtIP7Ek.png" height="70%" width="70%"/>
+<img src="https://i.imgur.com/BetIXPn.png" height="70%" width="70%"/>
 <p>
 <p><br>
 
-<img src="https://i.imgur.com/zkr3A9P.png" height="70%" width="70%"/>
+<img src="https://i.imgur.com/ph8Vhx2.png" height="70%" width="70%"/>
 </p>
 <p>
 To get started on creating the virtual machine, I searched for “virtual machine” in the search bar at the top of the Azure homepage and selected “Virtual machines.” I clicked “Create” in the top left corner (the blue “Create” button in the middle of the screen also works) and then selected “Azure virtual machine.”
@@ -39,18 +41,18 @@ To get started on creating the virtual machine, I searched for “virtual machin
 <br />
 
 <p>
-<img src="https://i.imgur.com/bwTogp0.png" height="50%" width="50%"/>
+<img src="https://i.imgur.com/7PFkY2F.png" height="50%" width="50%"/>
 </p>
 <p>
-<img src="https://i.imgur.com/3h91vqh.png" height="50%" width="50%"/>
+<img src="https://i.imgur.com/cZCe81m.png" height="50%" width="50%"/>
 </p>
 <p>
-The first page is the “Basics” page, where I filled in the required fields. For the Resource group, I made a new one by selecting “Create new” and also selected an appropriate region based on my location. The location you select can affect your options for the “Size” field, so this may need to be tinkered with a little. Don’t forget to check the box under Licensing! Once I was done filling this page out, I clicked “Review + create.”
+The first page is the “Basics” page, where I filled in the required fields. For the Resource group, I made a new one by selecting “Create new” and also selected an appropriate region based on my location. The location you select can affect your options for the “Size” field, so this may need to be tinkered with a little. Image is the base operating system or application for the VM. I used Windows 10 in this example. Don’t forget to check the box under Licensing! Once I was done filling this page out, I clicked “Review + create.”
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/ksIytig.png" height="50%" width="50%"/>
+<img src="https://i.imgur.com/9AxM3vR.png" height="50%" width="50%"/>
 </p>
 <p>
 Before the VM could be created, I had to make sure it passed validation. Once the message at the top confirmed that everything was set up properly, I clicked “Create.”
@@ -74,6 +76,6 @@ View the various components of my new VM using Network Watcher in Azure. As you 
 <br />
 
 <p>
-Don’t forget to delete any Resource groups that were created if you want to minimize the charges to your free Azure credits.
+*Don’t forget to delete any Resource groups that were created if you want to minimize the charges to your free Azure credits.*
 </p>
 <br />
