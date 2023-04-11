@@ -15,6 +15,7 @@ Welcome!!! In this project I will show a tutorial on how to make a Virtual Machi
 
 <h2>Advanced Steps</h2>
 
+- Log into  [Microsoft Azure](https://portal.azure.com/)
 - Select “Virtual machines” and select to Create an “Azure virtual machine”
 - Fill in the required fields on the “Basics” page
 - Click “Review + create”
@@ -24,7 +25,12 @@ Welcome!!! In this project I will show a tutorial on how to make a Virtual Machi
 
 <h2>Synopsis</h2>
 
+<p><br>
+After you log in
+<img src="https://i.imgur.com/MtIP7Ek.png" height="70%" width="70%"/>
 <p>
+<p><br>
+
 <img src="https://i.imgur.com/zkr3A9P.png" height="70%" width="70%"/>
 </p>
 <p>
@@ -63,11 +69,11 @@ It took a bit of time for the VM to be set up by Azure, but once it was done, I 
 <img src="https://i.imgur.com/J9BB8fA.png" height="70%" width="70%"/>
 </p>
 <p>
-Out of curiosity, I viewed the various components of my new VM using Network Watcher in Azure. As you can see, when you create a VM, it’s not just the virtual machine itself that is created. Along with the VM (VM-1), Azure also created a virtual network (VM-Lab-vnet), a subnet (default), a virtual NIC (vm-1960), a Network Security Group a.k.a. firewall (VM-1-nsg), and a public IP address (VM-1-ip).
+View the various components of my new VM using Network Watcher in Azure. As you can see, when you create a VM, it’s not just the virtual machine itself that is created. Along with the VM (VM-1), Azure also created a virtual network (VM-Lab-vnet), a subnet (default), a virtual NIC (vm-1960), a Network Security Group a.k.a. firewall (VM-1-nsg), and a public IP address (VM-1-ip).
 </p>
 <br />
 
 <p>
-✨ And that’s how I created a virtual machine in Azure! If you do the same, don’t forget to delete any Resource groups that were created if you want to minimize the charges to your free Azure credits.
+Don’t forget to delete any Resource groups that were created if you want to minimize the charges to your free Azure credits.
 </p>
 <br />
