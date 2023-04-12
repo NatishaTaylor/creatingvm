@@ -8,6 +8,10 @@
 Welcome!!! In this project I will show a tutorial on how to make a Virtual Machine (vm) in Mircrosoft Azure <br />
 *Included Network Watcher and Topology* <br>
 
+<h4>Video Demonstration</h4>
+
+- ### [YouTube: How to Create a Virtual Machine in Azure](https://www.youtube.com/watch?v=gyb9tyCtVAM&t=45s)
+
 
 <h2>Requirements</h2>
 
