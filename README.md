@@ -63,7 +63,7 @@ Before the VM could be created, I had to make sure it passed validation. Once th
 <img src="https://i.imgur.com/3iB9u1P.png" height="70%" width="70%"/>
 </p>
 <p>
-It took a bit of time for the VM to be set up by Azure, but once it was done, I was able to look at the configuration of my VM. I made a mental note of the location of the public and private IP addresses on this page, since finding this information would be important for future labs.
+It took a bit of time for the VM to be set up by Azure, but once it was done, I was able to look at the configuration of my VM. I made a mental note of the location of the public and private IP addresses on this page, since finding this information would be important for using remote help desk and VPN usage.
 </p>
 <br />
 
@@ -71,7 +71,7 @@ It took a bit of time for the VM to be set up by Azure, but once it was done, I 
 <img src="https://i.imgur.com/J9BB8fA.png" height="70%" width="70%"/>
 </p>
 <p>
-View the various components of my new VM using Network Watcher in Azure. As you can see, when you create a VM, it’s not just the virtual machine itself that is created. Along with the VM (VM-1), Azure also created a virtual network (VM-Lab-vnet), a subnet (default), a virtual NIC (vm-1960), a Network Security Group a.k.a. firewall (VM-1-nsg), and a public IP address (VM-1-ip).
+View the various components of my new VM using Network Watcher in Azure. As you can see, when you create a VM, it’s not just the virtual machine itself that is created. Along with the VM (VM-1), Azure also created a virtual network (VM-Lab-vnet), a subnet (default), a virtual NIC (vm-1960), a Network Security Group as known as the firewall (VM-1-nsg), and a public IP address (VM-1-ip).
 </p>
 <br />
 
